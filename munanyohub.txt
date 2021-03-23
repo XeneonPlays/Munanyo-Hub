@@ -1,0 +1,575 @@
+-- No skids here.
+
+-- Instances:
+
+local munanomain = Instance.new("ScreenGui")
+local menu = Instance.new("Frame")
+local text = Instance.new("Frame")
+local hub = Instance.new("TextLabel")
+local munanyo = Instance.new("TextLabel")
+local drag = Instance.new("Frame")
+local openothers = Instance.new("TextButton")
+local clear = Instance.new("TextButton")
+local Soon = Instance.new("TextButton")
+local Soon_2 = Instance.new("TextButton")
+local Soon_3 = Instance.new("TextButton")
+local Soon_4 = Instance.new("TextButton")
+local Soon_5 = Instance.new("TextButton")
+local Soon_6 = Instance.new("TextButton")
+local Soon_7 = Instance.new("TextButton")
+local Soon_8 = Instance.new("TextButton")
+local Soon_9 = Instance.new("TextButton")
+local Soon_10 = Instance.new("TextButton")
+local Soon_11 = Instance.new("TextButton")
+local Soon_12 = Instance.new("TextButton")
+local scripthere = Instance.new("TextBox")
+local execute = Instance.new("TextButton")
+local others = Instance.new("Frame")
+local drag_2 = Instance.new("Frame")
+local others_2 = Instance.new("TextLabel")
+local adonis = Instance.new("TextButton")
+local yield = Instance.new("TextButton")
+local fedisable = Instance.new("TextButton")
+local feenable = Instance.new("TextButton")
+local fecheck = Instance.new("TextButton")
+local moresoon = Instance.new("TextLabel")
+
+--Properties:
+
+munanomain.Name = "munanomain"
+munanomain.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+menu.Name = "menu"
+menu.Parent = munanomain
+menu.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+menu.Position = UDim2.new(0.276237637, 0, 0.296833783, 0)
+menu.Size = UDim2.new(0, 451, 0, 295)
+menu.Visible = false
+
+text.Name = "text"
+text.Parent = menu
+text.Active = true
+text.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+text.Position = UDim2.new(0.171690539, 0, 0.00141084194, 0)
+text.Size = UDim2.new(0, 34, 0, 17)
+text.ZIndex = 2
+
+hub.Name = "hub"
+hub.Parent = menu
+hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hub.BackgroundTransparency = 1.000
+hub.Position = UDim2.new(0.131476745, 0, 0.00109136105, 0)
+hub.Size = UDim2.new(0, 70, 0, 19)
+hub.ZIndex = 2
+hub.Font = Enum.Font.SciFi
+hub.Text = "Hub"
+hub.TextColor3 = Color3.fromRGB(255, 255, 255)
+hub.TextSize = 10.000
+
+munanyo.Name = "munanyo"
+munanyo.Parent = menu
+munanyo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+munanyo.BackgroundTransparency = 1.000
+munanyo.Position = UDim2.new(-0.117088564, 0, -0.0683154166, 0)
+munanyo.Size = UDim2.new(0, 210, 0, 59)
+munanyo.ZIndex = 2
+munanyo.Font = Enum.Font.SciFi
+munanyo.Text = "Munanyo"
+munanyo.TextColor3 = Color3.fromRGB(255, 255, 255)
+munanyo.TextSize = 10.000
+
+drag.Name = "drag"
+drag.Parent = menu
+drag.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+drag.Position = UDim2.new(-0.000924229622, 0, -0.00147131085, 0)
+drag.Size = UDim2.new(0, 451, 0, 17)
+
+openothers.Name = "openothers"
+openothers.Parent = menu
+openothers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openothers.BackgroundTransparency = 1.000
+openothers.Position = UDim2.new(-0.000924229622, 0, -0.00486114621, 0)
+openothers.Size = UDim2.new(0, 26, 0, 16)
+openothers.Font = Enum.Font.SourceSans
+openothers.Text = "#"
+openothers.TextColor3 = Color3.fromRGB(255, 255, 255)
+openothers.TextSize = 30.000
+
+clear.Name = "clear"
+clear.Parent = menu
+clear.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+clear.Position = UDim2.new(0.807095289, 0, 0.630508423, 0)
+clear.Size = UDim2.new(0, 76, 0, 29)
+clear.ZIndex = 3
+clear.Font = Enum.Font.SciFi
+clear.Text = "Clear"
+clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+clear.TextSize = 20.000
+
+Soon.Name = "Soon"
+Soon.Parent = menu
+Soon.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon.Position = UDim2.new(0.0310421288, 0, 0.0983050838, 0)
+Soon.Size = UDim2.new(0, 76, 0, 29)
+Soon.ZIndex = 3
+Soon.Font = Enum.Font.SciFi
+Soon.Text = "Soon"
+Soon.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon.TextSize = 20.000
+
+Soon_2.Name = "Soon"
+Soon_2.Parent = menu
+Soon_2.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_2.Position = UDim2.new(0.0310421288, 0, 0.254237294, 0)
+Soon_2.Size = UDim2.new(0, 76, 0, 29)
+Soon_2.ZIndex = 3
+Soon_2.Font = Enum.Font.SciFi
+Soon_2.Text = "Soon"
+Soon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_2.TextSize = 20.000
+
+Soon_3.Name = "Soon"
+Soon_3.Parent = menu
+Soon_3.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_3.Position = UDim2.new(0.0310421288, 0, 0.406779647, 0)
+Soon_3.Size = UDim2.new(0, 76, 0, 29)
+Soon_3.ZIndex = 3
+Soon_3.Font = Enum.Font.SciFi
+Soon_3.Text = "Soon"
+Soon_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_3.TextSize = 20.000
+
+Soon_4.Name = "Soon"
+Soon_4.Parent = menu
+Soon_4.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_4.Position = UDim2.new(0.221729487, 0, 0.254237294, 0)
+Soon_4.Size = UDim2.new(0, 76, 0, 29)
+Soon_4.ZIndex = 3
+Soon_4.Font = Enum.Font.SciFi
+Soon_4.Text = "Soon"
+Soon_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_4.TextSize = 20.000
+
+Soon_5.Name = "Soon"
+Soon_5.Parent = menu
+Soon_5.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_5.Position = UDim2.new(0.221729487, 0, 0.0983050838, 0)
+Soon_5.Size = UDim2.new(0, 76, 0, 29)
+Soon_5.ZIndex = 3
+Soon_5.Font = Enum.Font.SciFi
+Soon_5.Text = "Soon"
+Soon_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_5.TextSize = 20.000
+
+Soon_6.Name = "Soon"
+Soon_6.Parent = menu
+Soon_6.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_6.Position = UDim2.new(0.221729487, 0, 0.406779647, 0)
+Soon_6.Size = UDim2.new(0, 76, 0, 29)
+Soon_6.ZIndex = 3
+Soon_6.Font = Enum.Font.SciFi
+Soon_6.Text = "Soon"
+Soon_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_6.TextSize = 20.000
+
+Soon_7.Name = "Soon"
+Soon_7.Parent = menu
+Soon_7.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_7.Position = UDim2.new(0.416851431, 0, 0.254237294, 0)
+Soon_7.Size = UDim2.new(0, 76, 0, 29)
+Soon_7.ZIndex = 3
+Soon_7.Font = Enum.Font.SciFi
+Soon_7.Text = "Soon"
+Soon_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_7.TextSize = 20.000
+
+Soon_8.Name = "Soon"
+Soon_8.Parent = menu
+Soon_8.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_8.Position = UDim2.new(0.416851431, 0, 0.0983050838, 0)
+Soon_8.Size = UDim2.new(0, 76, 0, 29)
+Soon_8.ZIndex = 3
+Soon_8.Font = Enum.Font.SciFi
+Soon_8.Text = "Soon"
+Soon_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_8.TextSize = 20.000
+
+Soon_9.Name = "Soon"
+Soon_9.Parent = menu
+Soon_9.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_9.Position = UDim2.new(0.416851431, 0, 0.406779647, 0)
+Soon_9.Size = UDim2.new(0, 76, 0, 29)
+Soon_9.ZIndex = 3
+Soon_9.Font = Enum.Font.SciFi
+Soon_9.Text = "Soon"
+Soon_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_9.TextSize = 20.000
+
+Soon_10.Name = "Soon"
+Soon_10.Parent = menu
+Soon_10.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_10.Position = UDim2.new(0.61640799, 0, 0.406779647, 0)
+Soon_10.Size = UDim2.new(0, 76, 0, 29)
+Soon_10.ZIndex = 3
+Soon_10.Font = Enum.Font.SciFi
+Soon_10.Text = "Soon"
+Soon_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_10.TextSize = 20.000
+
+Soon_11.Name = "Soon"
+Soon_11.Parent = menu
+Soon_11.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_11.Position = UDim2.new(0.61640799, 0, 0.254237294, 0)
+Soon_11.Size = UDim2.new(0, 76, 0, 29)
+Soon_11.ZIndex = 3
+Soon_11.Font = Enum.Font.SciFi
+Soon_11.Text = "Soon"
+Soon_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_11.TextSize = 20.000
+
+Soon_12.Name = "Soon"
+Soon_12.Parent = menu
+Soon_12.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+Soon_12.Position = UDim2.new(0.61640799, 0, 0.0983050838, 0)
+Soon_12.Size = UDim2.new(0, 76, 0, 29)
+Soon_12.ZIndex = 3
+Soon_12.Font = Enum.Font.SciFi
+Soon_12.Text = "Soon"
+Soon_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_12.TextSize = 20.000
+
+scripthere.Name = "scripthere"
+scripthere.Parent = menu
+scripthere.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+scripthere.Position = UDim2.new(0.0306755304, 0, 0.562537432, 0)
+scripthere.Size = UDim2.new(0, 340, 0, 112)
+scripthere.Font = Enum.Font.SciFi
+scripthere.PlaceholderColor3 = Color3.fromRGB(255, 0, 127)
+scripthere.PlaceholderText = "Script here, not a serverside script."
+scripthere.Text = ""
+scripthere.TextColor3 = Color3.fromRGB(255, 0, 127)
+scripthere.TextSize = 12.000
+scripthere.TextWrapped = true
+scripthere.TextXAlignment = Enum.TextXAlignment.Left
+scripthere.TextYAlignment = Enum.TextYAlignment.Top
+
+execute.Name = "execute"
+execute.Parent = menu
+execute.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+execute.Position = UDim2.new(0.807095289, 0, 0.772881389, 0)
+execute.Size = UDim2.new(0, 76, 0, 29)
+execute.ZIndex = 3
+execute.Font = Enum.Font.SciFi
+execute.Text = "Execute"
+execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+execute.TextSize = 20.000
+
+others.Name = "others"
+others.Parent = munanomain
+others.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+others.Position = UDim2.new(0.124752462, 0, 0.297382861, 0)
+others.Size = UDim2.new(0, 141, 0, 294)
+others.Visible = false
+
+drag_2.Name = "drag"
+drag_2.Parent = others
+drag_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+drag_2.Position = UDim2.new(-0.000924292952, 0, -0.00154003128, 0)
+drag_2.Size = UDim2.new(0, 141, 0, 17)
+
+others_2.Name = "others"
+others_2.Parent = others
+others_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+others_2.BackgroundTransparency = 1.000
+others_2.Position = UDim2.new(-0.247138381, 0, -0.0688803792, 0)
+others_2.Size = UDim2.new(0, 210, 0, 59)
+others_2.ZIndex = 2
+others_2.Font = Enum.Font.SciFi
+others_2.Text = "Others"
+others_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+others_2.TextSize = 10.000
+
+adonis.Name = "adonis"
+adonis.Parent = others
+adonis.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+adonis.Position = UDim2.new(0.0685631633, 0, 0.0949037224, 0)
+adonis.Size = UDim2.new(0, 59, 0, 29)
+adonis.ZIndex = 3
+adonis.Font = Enum.Font.SciFi
+adonis.Text = "Adonis"
+adonis.TextColor3 = Color3.fromRGB(0, 0, 0)
+adonis.TextScaled = true
+adonis.TextSize = 20.000
+adonis.TextWrapped = true
+
+yield.Name = "yield"
+yield.Parent = others
+yield.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+yield.Position = UDim2.new(0.529556096, 0, 0.0949037224, 0)
+yield.Size = UDim2.new(0, 59, 0, 29)
+yield.ZIndex = 3
+yield.Font = Enum.Font.SciFi
+yield.Text = "Infinite Yield"
+yield.TextColor3 = Color3.fromRGB(0, 0, 0)
+yield.TextScaled = true
+yield.TextSize = 20.000
+yield.TextWrapped = true
+
+fedisable.Name = "fedisable"
+fedisable.Parent = others
+fedisable.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+fedisable.Position = UDim2.new(0.0685631931, 0, 0.230958149, 0)
+fedisable.Size = UDim2.new(0, 59, 0, 29)
+fedisable.ZIndex = 3
+fedisable.Font = Enum.Font.SciFi
+fedisable.Text = "FE Disable"
+fedisable.TextColor3 = Color3.fromRGB(0, 0, 0)
+fedisable.TextScaled = true
+fedisable.TextSize = 20.000
+fedisable.TextWrapped = true
+
+feenable.Name = "feenable"
+feenable.Parent = others
+feenable.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+feenable.Position = UDim2.new(0.529556096, 0, 0.230958149, 0)
+feenable.Size = UDim2.new(0, 59, 0, 29)
+feenable.ZIndex = 3
+feenable.Font = Enum.Font.SciFi
+feenable.Text = "FE Enable"
+feenable.TextColor3 = Color3.fromRGB(0, 0, 0)
+feenable.TextScaled = true
+feenable.TextSize = 20.000
+feenable.TextWrapped = true
+
+fecheck.Name = "fecheck"
+fecheck.Parent = others
+fecheck.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+fecheck.Position = UDim2.new(0.281329155, 0, 0.404427528, 0)
+fecheck.Size = UDim2.new(0, 59, 0, 29)
+fecheck.ZIndex = 3
+fecheck.Font = Enum.Font.SciFi
+fecheck.Text = "FE Check"
+fecheck.TextColor3 = Color3.fromRGB(0, 0, 0)
+fecheck.TextScaled = true
+fecheck.TextSize = 20.000
+fecheck.TextWrapped = true
+
+moresoon.Name = "moresoon"
+moresoon.Parent = others
+moresoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+moresoon.BackgroundTransparency = 1.000
+moresoon.Position = UDim2.new(0.045748122, 0, 0.630301774, 0)
+moresoon.Size = UDim2.new(0, 128, 0, 50)
+moresoon.Font = Enum.Font.SciFi
+moresoon.Text = "More Soon!!"
+moresoon.TextColor3 = Color3.fromRGB(255, 0, 127)
+moresoon.TextScaled = true
+moresoon.TextSize = 10.000
+moresoon.TextWrapped = true
+
+-- Scripts:
+
+local function MLCZGAB_fake_script() -- openothers.LocalScript 
+	local script = Instance.new('LocalScript', openothers)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.others.Visible = not script.Parent.Parent.others.Visible
+	end)
+end
+coroutine.wrap(MLCZGAB_fake_script)()
+local function RPWXCUU_fake_script() -- clear.LocalScript 
+	local script = Instance.new('LocalScript', clear)
+
+	script.Parent.MouseButton1Down:connect(function()
+		scripthere.text = "Cleared"
+		wait(2)
+		scripthere.text = " "
+	end)
+end
+coroutine.wrap(RPWXCUU_fake_script)()
+local function TRFAI_fake_script() -- execute.LocalScript 
+	local script = Instance.new('LocalScript', execute)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(scripthere.text)
+	end)
+end
+coroutine.wrap(TRFAI_fake_script)()
+local function AQDVPR_fake_script() -- menu.LocalScript 
+	local script = Instance.new('LocalScript', menu)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(L)
+		if L == "-" then
+			script.Parent.Visible = true and script.Parent.Parent.others.Visible == true
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(L)
+		if L == "-" then
+			script.Parent.Visible = false and script.Parent.Parent.others.Visible == false
+		end
+	end)
+end
+coroutine.wrap(AQDVPR_fake_script)()
+local function TWLM_fake_script() -- menu.Dragify 
+	local script = Instance.new('LocalScript', menu)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(TWLM_fake_script)()
+local function ALYCX_fake_script() -- adonis.LocalScript 
+	local script = Instance.new('LocalScript', adonis)
+
+	script.Parent.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))()
+	end)
+end
+coroutine.wrap(ALYCX_fake_script)()
+local function HAJW_fake_script() -- yield.LocalScript 
+	local script = Instance.new('LocalScript', yield)
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end
+coroutine.wrap(HAJW_fake_script)()
+local function NAKPB_fake_script() -- fedisable.LocalScript 
+	local script = Instance.new('LocalScript', fedisable)
+
+	script.Parent.MouseButton1Down:connect(function()
+		workspace.FilteringEnabled = false
+	end)
+end
+coroutine.wrap(NAKPB_fake_script)()
+local function UERB_fake_script() -- feenable.LocalScript 
+	local script = Instance.new('LocalScript', feenable)
+
+	script.Parent.MouseButton1Down:connect(function()
+		workspace.FilteringEnabled = true
+	end)
+end
+coroutine.wrap(UERB_fake_script)()
+local function AIFLVKY_fake_script() -- fecheck.LocalScript 
+	local script = Instance.new('LocalScript', fecheck)
+
+	script.Parent.MouseButton1Down:connect(function()
+		if workspace.FilteringEnabled == false then
+			game:GetService("StarterGui"):SetCore("SendNotification",{Title = "FE Checker",Text = "FE is Disabled.",Duration = 10})
+		elseif workspace.FilteringEnabled == true then
+			game:GetService("StarterGui"):SetCore("SendNotification",{Title = "FE Checker",Text = "FE is Enabled",Duration = 10})
+		end
+	end)
+end
+coroutine.wrap(AIFLVKY_fake_script)()
+local function CYLAZM_fake_script() -- others.Dragify 
+	local script = Instance.new('LocalScript', others)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(CYLAZM_fake_script)()
+local function XDWVKK_fake_script() -- munanomain.LocalScript 
+	local script = Instance.new('LocalScript', munanomain)
+
+	if game.PlaceId == 155615604 then -- prison life
+		loadstring(game:HttpGet("https://paste.ee/r/v8k8Z%22"))()
+	elseif game.PlaceId == 286090429 then -- arsenal
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	elseif game.PlaceId == 2041312716 then -- ragdoll
+		_G.CheckCustomBuilds = true
+		_G.DefaulBuilds = true
+		_G.Barrier = true
+		_G.bridge2 = true
+		_G.bridge4 = true
+		_G.ladder = true
+		_G.Nazi = true
+		_G.penis = true
+		_G.platform = true
+		_G.stairs = true
+		_G.BigPP = true
+	
+		_G.RGB = false
+		_G.RGBswitchDelay = .4
+	
+		_G.RejoinWaitDelayForReExecute = 5  -- tell how long the script will wait before rejoining (for synapse script queing)
+	
+		loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
+	elseif game.PlaceId == 920587237 then -- adopt me
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthyHub/EarthyHub/main/AdoptMe', true))()
+	end
+	game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Munanyo Hub",Text = "Press L to open Universal Gui.",Duration = 10})
+end
+coroutine.wrap(XDWVKK_fake_script)()
