@@ -37,7 +37,7 @@ local moresoon = Instance.new("TextLabel")
 --Properties:
 
 munanomain.Name = "munanomain"
-munanomain.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+munanomain.Parent = game.CoreGui
 
 menu.Name = "menu"
 menu.Parent = munanomain
@@ -492,9 +492,31 @@ local function AIFLVKY_fake_script() -- fecheck.LocalScript
 
 	script.Parent.MouseButton1Down:connect(function()
 		if workspace.FilteringEnabled == false then
-			game:GetService("StarterGui"):SetCore("SendNotification",{Title = "FE Checker",Text = "FE is Disabled.",Duration = 10})
+			local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Munanyo Hub";
+    Text = "FE is Enabled.;
+    Duration = "5";
+    Callback = NotificationBindable;
+})
 		elseif workspace.FilteringEnabled == true then
-			game:GetService("StarterGui"):SetCore("SendNotification",{Title = "FE Checker",Text = "FE is Enabled",Duration = 10})
+			local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Munanyo Hub";
+    Text = "Fe is Disabled.";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
 		end
 	end)
 end
@@ -570,6 +592,17 @@ local function XDWVKK_fake_script() -- munanomain.LocalScript
 	elseif game.PlaceId == 920587237 then -- adopt me
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EarthyHub/EarthyHub/main/AdoptMe', true))()
 	end
-	game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Munanyo Hub",Text = "Press L to open Universal Gui.",Duration = 10})
+	local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Munanyo Hub";
+    Text = "Press L to Open Universal GUI";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
 end
 coroutine.wrap(XDWVKK_fake_script)()
